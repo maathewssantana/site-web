@@ -6,5 +6,4 @@
 
 ### Foco: Estruturar o site para uma infra de nuvem
 
-# <img src="https://img.shields.io/badge/Site"/>
-
+### Link do site: https://maathewssantana.github.io/site-web/

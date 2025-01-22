@@ -6,8 +6,6 @@ pipeline {
             steps {
                 echo 'Building...'
                 // Exemplo de comando para construir o projeto
-                sh 'npm install'
-                sh 'npm run build'
             }
         }
     }

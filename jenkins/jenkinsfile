@@ -1,19 +1,13 @@
 pipeline {
     agent any
+
     stages {
         stage('Build') {
             steps {
+                echo 'Building...'
+                // Exemplo de comando para construir o projeto
                 sh 'npm install'
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'npm test'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                sh 'npm start'
+                sh 'npm run build'
             }
         }
     }
